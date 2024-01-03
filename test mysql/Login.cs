@@ -37,7 +37,7 @@ namespace test_mysql
             Encryption encryption = new Encryption();
             string hashPassword = encryption.CalculateSHA256(login_Password.Text);
 
-            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT COUNT(*) FROM login WHERE user ='" + login_Id.Text + "' AND password='" + hashPassword + "'", connection);
+            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT COUNT(*) FROM login WHERE user ='" + login_Id.Text + "' AND sha256password='" + hashPassword + "'", connection);
             // requete SQL qui recupère la ligne ou le login et mot de passe sont identique
 
             DataTable dt = new DataTable(); // initialise la dataTable dt
