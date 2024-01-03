@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = test_mysql
-build_property.ProjectDir = C:\Users\garci\Desktop\test mysql\test mysql\
+build_property.ProjectDir = C:\Users\garci\Documents\GitHub\MySql-learning\test mysql\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

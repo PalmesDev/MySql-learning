@@ -9,6 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+using test_mysql.Cryptography;
+using Org.BouncyCastle.Utilities;
+
 
 namespace test_mysql
 {
@@ -23,7 +26,12 @@ namespace test_mysql
 
         private async void validateButton_Click(object sender, EventArgs e)
         {
-            string query = "INSERT INTO login (user,password) VALUES ('" + login_Id.Text + "','" + login_Password.Text + "')";
+            Encryption encryption = new Encryption();
+            var byteHash = encryption.CalculateSHA256(login_Password.Text);
+            string passHash = Encoding.Default.GetString(byteHash);
+            label1.Text = passHash;
+            await Task.Delay(2000);
+            string query = "INSERT INTO login (user,password) VALUES ('" + login_Id.Text + "','" + passHash + "')";
             MySqlCommand command = new MySqlCommand(query, connection);
             connection.Open();
             command.ExecuteNonQuery();
