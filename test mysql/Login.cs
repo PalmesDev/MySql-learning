@@ -2,6 +2,7 @@ using Google.Protobuf.WellKnownTypes;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 using System.Data;
+using test_mysql.Cryptography;
 
 namespace test_mysql
 {
@@ -33,7 +34,10 @@ namespace test_mysql
             connection.Open(); // connexion a la bdd
             logger.Text = "Connexion en cours...";
 
-            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT COUNT(*) FROM login WHERE user ='" + login_Id.Text + "' AND password='" + login_Password.Text + "'", connection);
+            Encryption encryption = new Encryption();
+            string hashPassword = encryption.CalculateSHA256(login_Password.Text);
+
+            MySqlDataAdapter adapter = new MySqlDataAdapter("SELECT COUNT(*) FROM login WHERE user ='" + login_Id.Text + "' AND password='" + hashPassword + "'", connection);
             // requete SQL qui recupère la ligne ou le login et mot de passe sont identique
 
             DataTable dt = new DataTable(); // initialise la dataTable dt
