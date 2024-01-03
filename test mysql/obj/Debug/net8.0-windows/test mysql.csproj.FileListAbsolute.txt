@@ -1,0 +1,62 @@
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.exe
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.deps.json
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.runtimeconfig.json
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.pdb
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test_mysql.Form1.resources
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.csproj.GenerateResource.cache
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.AssemblyInfoInputs.cache
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.AssemblyInfo.cs
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.csproj.CoreCompileInputs.cache
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.dll
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\refint\test mysql.dll
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.pdb
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.genruntimeconfig.cache
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\ref\test mysql.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\garci\source\repos\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.csproj.AssemblyReference.cache
+C:\Users\garci\source\repos\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.csproj.CopyComplete
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.csproj.AssemblyReference.cache
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test_mysql.Form1.resources
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.csproj.GenerateResource.cache
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.AssemblyInfoInputs.cache
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.AssemblyInfo.cs
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.csproj.CoreCompileInputs.cache
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.dll
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\refint\test mysql.dll
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.pdb
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.exe
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.deps.json
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.runtimeconfig.json
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\test mysql.pdb
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\garci\Desktop\test mysql\test mysql\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.csproj.CopyComplete
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\test mysql.genruntimeconfig.cache
+C:\Users\garci\Desktop\test mysql\test mysql\obj\Debug\net8.0-windows\ref\test mysql.dll
