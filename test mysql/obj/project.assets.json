@@ -1785,19 +1785,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\garci\\.nuget\\packages\\": {}
+    "C:\\Users\\garci\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\garci\\Documents\\Github\\MySql-learning\\test mysql\\login.csproj",
+      "projectUniqueName": "C:\\Users\\garci\\Documents\\GitHub\\MySql-learning\\test mysql\\login.csproj",
       "projectName": "login",
-      "projectPath": "C:\\Users\\garci\\Documents\\Github\\MySql-learning\\test mysql\\login.csproj",
+      "projectPath": "C:\\Users\\garci\\Documents\\GitHub\\MySql-learning\\test mysql\\login.csproj",
       "packagesPath": "C:\\Users\\garci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\garci\\Documents\\Github\\MySql-learning\\test mysql\\obj\\",
+      "outputPath": "C:\\Users\\garci\\Documents\\GitHub\\MySql-learning\\test mysql\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\garci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1817,9 +1822,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {

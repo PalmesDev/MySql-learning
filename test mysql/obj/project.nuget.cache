@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1aG5uSQ5JkvwgjM1ownBb12V/N1+JZVRSFSx2cYry5Brg6Sh6gV08jRzcN0xn+eLogR2JmHD0+rFhle3dqdfPQ==",
+  "dgSpecHash": "QaJ3BMnbI9A9C7prwni0h6DOzFyE9iw31hflYECHN915C+B54tq9f633w4H+r4ojuI0LQxAYqFunZr7iGYTOww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\garci\\Documents\\Github\\MySql-learning\\test mysql\\login.csproj",
+  "projectFilePath": "C:\\Users\\garci\\Documents\\GitHub\\MySql-learning\\test mysql\\login.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\garci\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\garci\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",

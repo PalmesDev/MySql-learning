@@ -149,7 +149,6 @@
             // 
             login_SecretAwnser.Location = new Point(81, 258);
             login_SecretAwnser.Name = "login_SecretAwnser";
-            login_SecretAwnser.PasswordChar = '*';
             login_SecretAwnser.Size = new Size(230, 23);
             login_SecretAwnser.TabIndex = 19;
             // 
@@ -157,7 +156,6 @@
             // 
             login_Reponse.Location = new Point(81, 314);
             login_Reponse.Name = "login_Reponse";
-            login_Reponse.PasswordChar = '*';
             login_Reponse.Size = new Size(230, 23);
             login_Reponse.TabIndex = 20;
             // 

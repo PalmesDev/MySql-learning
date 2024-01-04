@@ -22,12 +22,6 @@ namespace test_mysql
             InitializeComponent();
         }
 
-        private void login_Id_TextChanged(object sender, EventArgs e)
-        {
-
-
-        }
-
         private void validateButton_Click(object sender, EventArgs e)
         {
             if (!login_secretAwnser.Enabled)
@@ -66,7 +60,7 @@ namespace test_mysql
                     return;
                 }
             }
-                
+
 
             if (login_secretReponse.Text.Length > 0)
             {
@@ -77,8 +71,25 @@ namespace test_mysql
 
                 if (dtt.Rows[0][0].ToString() == login_secretReponse.Text)
                 {
-                    MessageBox.Show("Some text", "Some title", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    panel1.Visible = false;
+                    panel2.Visible = true;
                 }
+                connection.Close();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(newPassword.Text == confirmNewPassword.Text)
+            {
+                Encryption encryption = new Encryption();
+                string hashPassword = encryption.CalculateSHA256(newPassword.Text);
+                string query = "UPDATE login SET sha256password = '" + hashPassword + "' WHERE user = '" + login_Id.Text + "'";
+                MySqlCommand command = new MySqlCommand(query, connection);
+                connection.Open();
+                command.ExecuteNonQuery();
+                connection.Close();
+                ActiveForm.Close();
             }
         }
     }
