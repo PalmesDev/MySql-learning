@@ -78,9 +78,14 @@ namespace test_mysql
 
         private void inscription_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Register secondForm = new Register();
-            secondForm.Show();
+            Register registerForm = new Register();
+            registerForm.Show();
         }
 
+        private void forgetpassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgetPassword forgetForm = new ForgetPassword();
+            forgetForm.Show();
+        }
     }
 }

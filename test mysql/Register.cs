@@ -29,7 +29,7 @@ namespace test_mysql
         {
             Encryption encryption = new Encryption();
             string hashPassword = encryption.CalculateSHA256(login_Password.Text);
-            string query = "INSERT INTO login (user,sha256password) VALUES ('" + login_Id.Text + "','" + hashPassword + "')";
+            string query = "INSERT INTO login (user,sha256password,secretAwnser,awnserReponse) VALUES ('" +login_Id.Text+ "','" +hashPassword+ "','"+login_SecretAwnser.Text+"','"+login_Reponse.Text+"')";
             MySqlCommand command = new MySqlCommand(query, connection);
             connection.Open();
             command.ExecuteNonQuery();

@@ -63,3 +63,4 @@ C:\Users\garci\Documents\GitHub\MySql-learning\test mysql\obj\Debug\net8.0-windo
 C:\Users\garci\Documents\GitHub\MySql-learning\test mysql\obj\Debug\net8.0-windows\login.pdb
 C:\Users\garci\Documents\GitHub\MySql-learning\test mysql\obj\Debug\net8.0-windows\login.genruntimeconfig.cache
 C:\Users\garci\Documents\GitHub\MySql-learning\test mysql\obj\Debug\net8.0-windows\ref\login.dll
+C:\Users\garci\Documents\Github\MySql-learning\test mysql\obj\Debug\net8.0-windows\test_mysql.ForgetPassword.resources

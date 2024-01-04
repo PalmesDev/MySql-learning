@@ -37,6 +37,7 @@
             button1 = new Button();
             inscription = new LinkLabel();
             logger = new Label();
+            forgetpassword = new LinkLabel();
             SuspendLayout();
             // 
             // LAUNCHER
@@ -113,7 +114,7 @@
             // 
             // inscription
             // 
-            inscription.Location = new Point(210, 341);
+            inscription.Location = new Point(255, 341);
             inscription.Name = "inscription";
             inscription.Size = new Size(60, 15);
             inscription.TabIndex = 8;
@@ -132,11 +133,22 @@
             logger.TabIndex = 9;
             logger.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // forgetpassword
+            // 
+            forgetpassword.Location = new Point(85, 341);
+            forgetpassword.Name = "forgetpassword";
+            forgetpassword.Size = new Size(140, 15);
+            forgetpassword.TabIndex = 10;
+            forgetpassword.TabStop = true;
+            forgetpassword.Text = "mot de passe oublié ?";
+            forgetpassword.LinkClicked += forgetpassword_LinkClicked;
+            // 
+            // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(384, 561);
+            Controls.Add(forgetpassword);
             Controls.Add(logger);
             Controls.Add(inscription);
             Controls.Add(button1);
@@ -147,7 +159,7 @@
             Controls.Add(identifiant);
             Controls.Add(LAUNCHER);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Name = "Form1";
+            Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
@@ -165,5 +177,6 @@
         private Button button1;
         private LinkLabel inscription;
         private Label logger;
+        private LinkLabel forgetpassword;
     }
 }
